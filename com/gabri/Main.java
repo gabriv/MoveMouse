@@ -42,7 +42,7 @@ public class Main {
 					xNew = p.x;
 					yNew = p.y;
 				}
-				System.out.println(new Date().toString().substring(0, 20) + "Tras " + segPause + "seg (" + (segPause/60) + " minutos), la nueva posición es: " + xNew + " - " + yNew + sufijo);
+				System.out.println(new Date().toString().substring(0, 20) + "Tras " + segPause + "seg (" + (segPause/60) + " minutos), la posición es: " + xNew + " - " + yNew + sufijo);
 			} while (1==1);
 		} catch (AWTException e) {
 			e.printStackTrace();
